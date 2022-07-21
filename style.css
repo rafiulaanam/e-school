@@ -40,7 +40,11 @@ nav{
     justify-content: space-evenly;
 
 }
-.last-a{
+.items a{
+    text-decoration: none;
+    color: black;
+}
+.last-a a{
     width: 104px;
 height: 43px;
 background: #21B573;
@@ -48,11 +52,9 @@ border-radius: 33px;
 display: flex;
 align-items: center;
     justify-content: center;
+    color: white;
 }
-.items a{
-    text-decoration: none;
-    color: black;
-}
+
 .header-text{
     width: 50%;
 
@@ -81,6 +83,9 @@ height: 500px;
     font-weight: 700;
 font-size: 48px;
 margin-top: 10px;
+}
+.heading span{
+    color: #21B573;
 }
 .header-info{
     width: 403px;
